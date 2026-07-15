@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import { profile, navLinks } from "../lib/data";
+import { profile } from "../lib/data";
 import profilePhoto from "../assets/profile-photo.webp";
 
 export default function Footer() {
