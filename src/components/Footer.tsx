@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { profile, navLinks } from "../lib/data";
 import profilePhoto from "../assets/profile-photo.webp";
 
