@@ -34,16 +34,22 @@ export type Skill = {
 };
 
 export const skills: Skill[] = [
-  { name: "React", level: 88, category: "Frontend", icon: "⚛️" },
-  { name: "JavaScript", level: 85, category: "Frontend", icon: "🟨" },
+  { name: "React.js", level: 88, category: "Frontend", icon: "⚛️" },
+  { name: "Next.js", level: 90, category: "Frontend", icon: "⏭️" },
   { name: "HTML5", level: 92, category: "Frontend", icon: "🧩" },
   { name: "CSS / Tailwind", level: 84, category: "Frontend", icon: "🎨" },
-  { name: "Python", level: 90, category: "Languages", icon: "🐍" },
-  { name: "Java", level: 80, category: "Languages", icon: "☕" },
-  { name: "FastAPI", level: 78, category: "Backend", icon: "⚡" },
-  { name: "MySQL", level: 82, category: "Backend", icon: "🗄️" },
+
+  { name: "Python", level: 99, category: "Languages", icon: "🐍" },
+  { name: "Java", level: 99, category: "Languages", icon: "☕" },
+  { name: "JavaScript", level: 85, category: "Languages", icon: "🟨" },
+  { name: "TypeScript", level: 85, category: "Languages", icon: "🟦" },
+
+
+  { name: "FastAPI", level: 90, category: "Backend", icon: "⚡" },
+  { name: "MySQL", level: 99, category: "Backend", icon: "🗄️" },
   { name: "REST / JAX-RS", level: 80, category: "Backend", icon: "🔗" },
-  { name: "Git & GitHub", level: 88, category: "Tools", icon: "🔧" },
+
+  { name: "Git & GitHub", level: 99, category: "Tools", icon: "🔧" },
   { name: "Figma / UI-UX", level: 75, category: "Tools", icon: "🖌️" },
   { name: "Tkinter", level: 72, category: "Tools", icon: "🖥️" },
 ];
